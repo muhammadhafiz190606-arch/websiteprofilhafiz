@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project - Muhammad Hafiz</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:40px 20px;
+}
+
+header h1{
+  font-size:32px;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  background:rgba(255,255,255,0.05);
+  border-radius:20px;
+  padding:20px;
+  backdrop-filter:blur(12px);
+  transition:0.4s;
+  box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.03);
+}
+
+/* IMAGE */
+.card img{
+  width:100%;
+  border-radius:15px;
+  margin-bottom:10px;
+}
+
+/* TITLE */
+.card h3{
+  margin:10px 0;
+}
+
+/* BUTTON */
+button{
+  margin-top:10px;
+  padding:10px 15px;
+  border:none;
+  border-radius:20px;
+  background:#00f5d4;
+  color:#000;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🚀 Project Saya</h1>
+  <p>Klik untuk melihat hasil karya saya</p>
+</header>
+
+<div class="container">
+
+  <div class="grid">
+
+     <!-- PROJECT 2 -->
+    <div class="card">
+      <img src="c:\Users\MSI\Pictures\Saved Pictures\WhatsApp Image 2026-04-27 at 01.13.33.jpeg">
+      <h3>🎥 Channel YouTube Militer</h3>
+      <p>Konten video militer seperti pesawat tempur dan operasi nyata.</p>
+      <button onclick="window.open('https://youtube.com/Battlefield Vision')">
+        Lihat Channel
+      </button>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="card">
+      <img src="c:\Users\MSI\Pictures\Saved Pictures\WhatsApp Image 2026-04-27 at 01.16.17.jpeg">
+      <h3>📘 E-book Manajemen Waktu</h3>
+      <p>E-book digital tentang belajar chat gpt untuk orang geptek.</p>
+      <button onclick="window.open('http://lynk.id/hafz.mj/x7depx9m6lk7/checkout')">
+        Download
+      </button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
